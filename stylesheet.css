@@ -1,0 +1,26 @@
+.body{
+  font-family: Arial, sans-serif;
+  /*padding: 10px;*/
+}
+
+/*Used to show the lines between each div*/
+div{
+  border: 1px solid #eee;
+}
+
+.navbar a{
+  line-height: 30px;
+}
+
+.navbar button{
+  display: inline-block;
+  text-align center;
+  line-height: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: #4285f4;
+}
+
+.navbar{
+  float: right;
+}
