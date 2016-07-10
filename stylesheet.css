@@ -52,30 +52,33 @@ div{
   width: 500px;
   line-height: 40px;
   margin: 20px auto;
+  padding: 2px;
 }
 
-.main-content .access-buttons .submit {
+.access-buttons .search-web{
   text-align: center;
   line-height: 30px;
   font-weight: bold;
   color: #757575;
   background-color: #f2f2f2;
-  /*margin: 10px auto;*/
-  /*width: 50px;*/
+  border: none;
+  padding: 3px;
 }
+/*
+.access-buttons .search-web #wildcar{
+  display: inline-block;
+}*/
 
-
-.main-content .access-buttons{
+.access-buttons{
   margin: 10px auto;
   width: 50px;
 }
-
-
 
 .footer {
   background-color: #f2f2f2;
   /*display: block;*/
   line-height: 40px;
+  /*bottom: 0;*/
 }
 
 .footer a{
