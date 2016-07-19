@@ -4,9 +4,9 @@
 }
 
 /*Used to show the lines between each div*/
-div{
+/*div{
   border: 1px solid #eee;
-}
+}*/
 
 .navbar a{
   line-height: 30px;
@@ -40,8 +40,6 @@ div{
   padding: 85px 85px 10px 85px;
 }
 
-
-
 .main-content .search-area .search-bar{
   line-height: 40px;
   width: 500px;
@@ -55,8 +53,8 @@ div{
   padding: 2px;
 }
 
-.access-buttons .search-web{
-  text-align: center;
+
+.access-buttons .search-buttons{
   line-height: 30px;
   font-weight: bold;
   color: #757575;
@@ -64,21 +62,22 @@ div{
   border: none;
   padding: 3px;
 }
-/*
-.access-buttons .search-web #wildcar{
-  display: inline-block;
-}*/
+
 
 .access-buttons{
-  margin: 10px auto;
-  width: 50px;
+  /*margin: 10px auto;
+  width: 50px;*/
+  /*If buttons are the only thing present in your div, then you should give text-align:center property
+   to the div. With this everything inside the div will be center aligned not depending on the width*/
+  text-align: center;
 }
 
 .footer {
   background-color: #f2f2f2;
-  /*display: block;*/
   line-height: 40px;
-  /*bottom: 0;*/
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .footer a{
@@ -90,10 +89,13 @@ div{
 
 .footer .left-area{
   display: inline-block;
+  float: left;
 }
 
 .footer .right-area{
   float: right;
+  margin: 0;
+  padding: 0;
 }
 
 .footer a:hover{
